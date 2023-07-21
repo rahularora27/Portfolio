@@ -8,7 +8,13 @@ export default {
     extend: {
       colors: {
         'custom-bg': '#0C0C0C',
+        'custom-icon': '#997349',
+        'custom-icon-hover': '#E9B171'
       },
+
+      fontFamily: {
+        Madurai: ["Hind Madurai", "sans-serif"],
+      }
     },
   },
   plugins: [],

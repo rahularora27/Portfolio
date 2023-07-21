@@ -1,10 +1,12 @@
-import { useState } from 'react'
-import Navbar from './components/Navbar'
+import React from 'react';
+import Hero from './components/Hero';
+import SideNavbar from './components/SideNavbar';
 
 function App() {
   return (
     <>
-    <Navbar />
+    <SideNavbar />
+    <Hero />
     </>
   );
 }
