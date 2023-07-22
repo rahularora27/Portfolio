@@ -1,11 +1,13 @@
 import React from 'react';
 import Hero from './components/Hero';
-import SideNavbar from './components/SideNavbar';
+import Links from './components/Links';
+import TopNav from './components/TopNav';
 
 function App() {
   return (
     <>
-    <SideNavbar />
+    <TopNav />
+    <Links />
     <Hero />
     </>
   );

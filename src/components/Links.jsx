@@ -2,14 +2,14 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
-const SideNavbar = () => {
+const Links = () => {
   return (
     <div className="fixed bottom-0 left-8 flex flex-col items-center">
       <a
         href="https://github.com/rahularora27"
         target="_blank"
         rel="noopener noreferrer"
-        className="mb-4"
+        className="mb-4 hover:-translate-y-0.5 transform transition duration-300"
       >
         <FontAwesomeIcon
           icon={faGithub}
@@ -20,7 +20,7 @@ const SideNavbar = () => {
         href="https://www.linkedin.com/in/rahularora2715"
         target="_blank"
         rel="noopener noreferrer"
-        className="mb-4"
+        className="mb-4 hover:-translate-y-0.5 transform transition duration-300"
       >
         <FontAwesomeIcon
           icon={faLinkedin}
@@ -32,7 +32,7 @@ const SideNavbar = () => {
         href="https://twitter.com/RahulArora2715"
         target="_blank"
         rel="noopener noreferrer"
-        className="mb-4"
+        className="mb-4 hover:-translate-y-0.5 transform transition duration-300"
       >
         <FontAwesomeIcon
           icon={faTwitter}
@@ -44,4 +44,4 @@ const SideNavbar = () => {
   );
 };
 
-export default SideNavbar;
+export default Links;
