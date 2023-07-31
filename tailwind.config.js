@@ -14,6 +14,8 @@ export default {
 
       fontFamily: {
         Madurai: ["Hind Madurai", "sans-serif"],
+        Playfair: ["Playfair Display", "serif"],
+        Arvo: ["Arvo", "serif"],
       }
     },
   },

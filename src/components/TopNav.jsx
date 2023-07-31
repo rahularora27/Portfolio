@@ -1,14 +1,15 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-scroll';
 
 const TopNav = () => {
   return (
-    <div className='text-custom-icon p-2 mr-2'>
+    <div className='fixed top-2 right-8 text-custom-icon'>
         <nav>
-            <ul className='flex justify-end items-center space-x-4'>
-                <li className=' hover:text-custom-icon-hover hover:scale-110 transition duration-500'><a href=''>Home</a></li>
-                <li className='hover:text-custom-icon-hover hover:scale-110 transition duration-500'><a href=''>About</a></li>
-                <li className='hover:text-custom-icon-hover hover:scale-110 transition duration-500'><a href=''>Projects</a></li>
-                <li className='hover:text-custom-icon-hover hover:scale-110 transition duration-500'><a href=''>Contact?</a></li>
+            <ul className='flex flex-row items-center space-x-4 font-Arvo'>
+                <li className='cursor-pointer hover:text-custom-icon-hover hover:scale-110 transition duration-500'><Link to='home' spy={true} smooth={true} offset={-250} duration={500}>Home</Link></li>
+                <li className='cursor-pointer hover:text-custom-icon-hover hover:scale-110 transition duration-500'><Link to='about' spy={true} smooth={true} duration={500}>About</Link></li>
+                <li className='cursor-pointer hover:text-custom-icon-hover hover:scale-110 transition duration-500'><Link to='projects' spy={true} smooth={true} duration={500}>Projects</Link></li>
+                <li className='cursor-pointer hover:text-custom-icon-hover hover:scale-110 transition duration-500'><Link to='contact' spy={true} smooth={true} duration={500}>Contact?</Link></li>
             </ul>
         </nav>
     </div>
