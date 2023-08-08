@@ -19,7 +19,7 @@ const Contact = () => {
           <ContactInfo icon={<BiSolidPhoneCall />} text="+91 9878736065" />
           <ContactInfo icon={<IoIosMail />} text="rahularora2715@gmail.com" />
           </div>
-          <button className='mr-16 py-3 px-5 text-2xl bg-slate-500 text-white'>Say Hello</button>
+          <button className='mr-16 mt-2.5 py-3 px-5 text-2xl bg-slate-500 text-white'>Say Hello</button>
         </div>
       </div>
     </div>
