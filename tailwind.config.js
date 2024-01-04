@@ -16,6 +16,13 @@ export default {
         Madurai: ["Hind Madurai", "sans-serif"],
         Playfair: ["Playfair Display", "serif"],
         Arvo: ["Arvo", "serif"],
+      },
+
+      screens: {
+        'sm': '640px',
+        'md': '768px',
+        'lg': '1024px',
+        'xl': '1280px',
       }
     },
   },
