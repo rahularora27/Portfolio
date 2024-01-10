@@ -15,7 +15,6 @@ const Contact = () => {
         </p>
         <div className="flex mt-10 items-center justify-between">
           <div className='text-3xl ml-8'>
-          <ContactInfo icon={<ImLocation2 />} text="Chandigarh, India" />
           <ContactInfo icon={<BiSolidPhoneCall />} text="+91 9878736065" />
           <ContactInfo icon={<IoIosMail />} text="rahularora2715@gmail.com" />
           </div>
