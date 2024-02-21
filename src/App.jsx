@@ -5,7 +5,6 @@ import TopNav from './components/TopNav';
 import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
-import { ClassNames } from '@emotion/react';
 
 function App() {
   return (
