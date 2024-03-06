@@ -4,7 +4,7 @@ import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-ic
 
 const Links = () => {
   return (
-    <div className="fixed bottom-0 left-8 flex flex-col items-center">
+    <div className="hidden md:fixed md:bottom-0 md:left-8 md:flex md:flex-col md:items-center">
       <a
         href="https://github.com/rahularora27"
         target="_blank"
