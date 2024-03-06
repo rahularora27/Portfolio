@@ -1,6 +1,5 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 const Links = () => {
   return (
@@ -11,8 +10,7 @@ const Links = () => {
         rel="noopener noreferrer"
         className="mb-4 hover:-translate-y-0.5 transform transition duration-300"
       >
-        <FontAwesomeIcon
-          icon={faGithub}
+        <FaGithub
           className="w-6 h-6 text-custom-icon hover:text-custom-icon-hover transition duration-300"/>
       </a>
 
@@ -22,8 +20,7 @@ const Links = () => {
         rel="noopener noreferrer"
         className="mb-4 hover:-translate-y-0.5 transform transition duration-300"
       >
-        <FontAwesomeIcon
-          icon={faLinkedin}
+        <FaLinkedin
           className="w-6 h-6 text-custom-icon hover:text-custom-icon-hover transition duration-300"
         />
       </a>
@@ -34,8 +31,7 @@ const Links = () => {
         rel="noopener noreferrer"
         className="mb-4 hover:-translate-y-0.5 transform transition duration-300"
       >
-        <FontAwesomeIcon
-          icon={faTwitter}
+        <FaTwitter
           className="w-6 h-6 text-custom-icon hover:text-custom-icon-hover transition duration-300"
         />
       </a>

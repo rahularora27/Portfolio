@@ -1,30 +1,16 @@
 import React from 'react';
-import Hero from './components/Hero';
-import Links from './components/Links';
-import TopNav from './components/TopNav';
-import About from './components/About';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import PageNotFound from './pages/PageNotFound';
 
 function App() {
   return (
-    <>
-    <TopNav />
-    <Links />
-
-    <section id='home'>
-      <Hero />
-    </section>
-    <section id='about'>
-      <About />
-    </section>
-    <section id='projects'>
-      <Projects />
-    </section>
-    <section id='contact'>
-      <Contact />
-    </section>
-    </>
+    <Router>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='*' element={<PageNotFound />} />
+      </Routes>
+    </Router>
   );
 }
 
