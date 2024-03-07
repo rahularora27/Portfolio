@@ -1,12 +1,11 @@
 import React from 'react'
+import rahul from '../assets/rahul.jpg'
 
 const About = () => {
   return (
-    <div className='h-screen flex items-center justify-around'>
-      <div>
-        Photo
-      </div>
-      <div className='text-custom-icon-hover max-w-3xl'>
+    <div className='h-screen md:flex items-center justify-evenly'>
+      <img className='h-64 w-64 mx-auto md:mx-0' src={rahul} />
+      <div className='text-custom-icon-hover max-w-md lg:max-w-2xl'>
         Hi there! <br/>
         I'm Rahul Arora, a 3rd-year BTech CSE student at Manipal University Jaipur, passionate about building innovative and user-friendly web applications. I'm constantly learning and exploring new technologies, and I'm excited to share my journey and creations with you.
         <br/>
