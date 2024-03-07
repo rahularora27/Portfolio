@@ -1,14 +1,34 @@
-import React from 'react';
+"use client";
+import React from "react";
+import { TypewriterEffectSmooth } from "../components/typewriter-effect";
+
+const commonClassname = 'dark:text-custom-icon-hover'
+
+const words = [
+  {
+    text: "Hey!",
+    className: [commonClassname],
+  },
+  {
+    text: "I",
+    className: [commonClassname],
+  },
+  {
+    text: "am",
+    className: [commonClassname],
+  },
+  {
+    text: "Rahul.",
+    className: [commonClassname],
+  },
+];
 
 const Hero = () => {
   return (
-    <div className="h-screen flex items-center justify-center">
-      <div className="text-center max-w-3xl">
-        <h1 className="font-Madurai text-5xl md:text-7xl text-custom-icon-hover">Hey! I am Rahul.</h1>
-        <h2 className="font-Madurai text-3xl md:text-5xl text-custom-icon-hover">&lt;Software Developer /&gt;</h2>
-      </div>
+    <div className="flex flex-col items-center justify-center h-[40rem]">
+      <TypewriterEffectSmooth words={words} />
     </div>
-  );
-};
+  )
+}
 
-export default Hero;
+export default Hero

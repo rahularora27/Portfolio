@@ -46,7 +46,7 @@ const TopNav = () => {
             <ul className='md:flex items-center fixed right-4 md:space-x-4 font-Arvo'>
               {NAV_LINKS.map((link) => (
                 <li key={link.to} className={commonClassName}>
-                  <Link to={link.to} spy={true} smooth={true} duration={500}>
+                  <Link to={link.to} spy={true} smooth={true} duration={500} offset={-30}>
                     {link.label}
                   </Link>
                 </li>
