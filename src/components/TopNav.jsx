@@ -3,7 +3,7 @@ import { Link } from 'react-scroll';
 import { BiMenuAltRight } from "react-icons/bi";
 
 const NAV_LINKS = [
-  { to: 'hero', label: 'Home' },
+  { to: 'home', label: 'Home' },
   { to: 'about', label: 'About' },
   { to: 'projects', label: 'Projects' },
   { to: 'contact', label: 'Contact?' },
@@ -17,7 +17,7 @@ const TopNav = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  const commonClassName = 'text-lg font-semibold cursor-pointer text-custom-icon hover:text-custom-icon-hover hover:scale-110 transition duration-500';
+  const commonClassName = 'text-lg font-Arvo font-semibold cursor-pointer text-custom-1 hover:text-custom-2 hover:scale-110 transition duration-500';
 
   return (
     <header className="flex flex-wrap md:justify-start md:flex-nowrap w-full text-md py-4 fixed">
@@ -25,7 +25,7 @@ const TopNav = () => {
         <div className="md:hidden md:order-3 flex items-center gap-x-2">
           <button
             type="button"
-            className="p-2.5 inline-flex justify-center items-center gap-x-2 rounded-lg text-custom-icon hover:text-custom-icon-hover shadow-md"
+            className="p-2.5 inline-flex justify-center items-center gap-x-2 rounded-lg text-custom-1 hover:text-custom-icon-2 shadow-md"
             onClick={toggleMenu}
             aria-label="Toggle navigation"
           >

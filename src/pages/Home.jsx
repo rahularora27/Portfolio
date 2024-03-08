@@ -1,31 +1,33 @@
-import React from 'react';
-import Links from '../components/Links';
-import TopNav from '../components/TopNav';
-import Hero from './Hero';
-import About from './About';
-import Projects from './Projects';
-import Contact from './Contact';
+import React from "react";
+import { TypewriterEffectSmooth } from "../components/typewriter-effect";
 
-function Home() {
+const commonClassname = 'dark:text-custom-1 dark:font-Playfair'
+
+const words = [
+  {
+    text: "Hey!",
+    className: [commonClassname],
+  },
+  {
+    text: "I",
+    className: [commonClassname],
+  },
+  {
+    text: "am",
+    className: [commonClassname],
+  },
+  {
+    text: "Rahul.",
+    className: [commonClassname],
+  },
+];
+
+const Home = () => {
   return (
-    <>
-    <TopNav />
-    <Links />
-
-    <section id='hero'>
-      <Hero />
-    </section>
-    <section id='about'>
-      <About />
-    </section>
-    <section id='projects'>
-      <Projects />
-    </section>
-    <section id='contact'>
-      <Contact />
-    </section>
-    </>
-  );
+    <div className="flex flex-col items-center justify-center h-screen">
+      <TypewriterEffectSmooth words={words} />
+    </div>
+  )
 }
 
 export default Home

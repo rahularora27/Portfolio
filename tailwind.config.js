@@ -7,9 +7,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        'custom-bg': '#0C0C0C',
-        'custom-icon': '#997349',
-        'custom-icon-hover': '#E9B171'
+        'custom-1': '#EABE6C',
+        'custom-2': '#FFEDD8',
       },
 
       fontFamily: {

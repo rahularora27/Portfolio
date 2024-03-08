@@ -11,7 +11,7 @@ const Links = () => {
         className="mb-4 hover:-translate-y-0.5 transform transition duration-300"
       >
         <FaGithub
-          className="w-6 h-6 text-custom-icon hover:text-custom-icon-hover transition duration-300"/>
+          className="w-6 h-6 text-custom-1 hover:text-custom-2 transition duration-300"/>
       </a>
 
       <a
@@ -21,7 +21,7 @@ const Links = () => {
         className="mb-4 hover:-translate-y-0.5 transform transition duration-300"
       >
         <FaLinkedin
-          className="w-6 h-6 text-custom-icon hover:text-custom-icon-hover transition duration-300"
+          className="w-6 h-6 text-custom-1 hover:text-custom-2 transition duration-300"
         />
       </a>
       
@@ -32,10 +32,10 @@ const Links = () => {
         className="mb-4 hover:-translate-y-0.5 transform transition duration-300"
       >
         <FaTwitter
-          className="w-6 h-6 text-custom-icon hover:text-custom-icon-hover transition duration-300"
+          className="w-6 h-6 text-custom-1 hover:text-custom-2 transition duration-300"
         />
       </a>
-      <div className="w-px h-24 bg-custom-icon"></div>
+      <div className="w-px h-24 bg-custom-1"></div>
     </div>
   );
 };
