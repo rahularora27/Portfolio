@@ -20,8 +20,8 @@ const TopNav = () => {
   const commonClassName = 'text-lg font-Arvo font-semibold cursor-pointer text-custom-1 hover:text-custom-2 hover:scale-110 transition duration-500';
 
   return (
-    <header className="flex flex-wrap md:justify-start md:flex-nowrap w-full text-md py-4 fixed">
-      <nav className='max-w-[85rem] w-full mx-auto px-4 flex flex-wrap basis-full items-center justify-end' role="navigation">
+    <header className="flex flex-wrap md:justify-start md:flex-nowrap w-full text-md py-4 relative">
+      <nav className='max-w-[85rem] w-full mx-auto flex flex-wrap basis-full items-center justify-end' role="navigation">
         <div className="md:hidden md:order-3 flex items-center gap-x-2">
           <button
             type="button"
