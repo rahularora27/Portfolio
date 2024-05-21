@@ -49,7 +49,7 @@ const About = () => {
       <div className='text-custom-1 font-madurai max-w-md lg:max-w-2xl mx-auto md:mx-0 text-center md:text-justify'>
         <p className='text-5xl font-bold my-10 md:my-0'>Hi there!</p>
         <p className='text-2xl font-semibold'>I'm Rahul Arora, a 3rd-year BTech CSE student at Manipal University Jaipur, passionate about building innovative and user-friendly web applications. I'm constantly learning and exploring new technologies, and I'm excited to share my journey and creations with you. This portfolio showcases some of my projects and experiences. I'd love to hear your thoughts, so feel free to browse around and connect with me!</p>
-        <div className="flex flex-row my-10 justify-center">
+        <div className="hidden lg:flex flex-row my-10 justify-center">
           <AnimatedTooltip items={people} />
         </div>
         {/*<br/>
